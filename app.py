@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 from tensorflow.keras.models import load_model
 
-model = load_model("model/breast_cancer_model.keras")
+model = load_model("model/breast_cancer_pred_model.keras")
 scaler = joblib.load("model/scaler.pkl")
 
 st.title("Breast Cancer Prediction App")
